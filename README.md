@@ -1,2 +1,2 @@
 # Training 
-Basic HTML code 
+Basic HTML, CSS code 
