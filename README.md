@@ -20,4 +20,4 @@ Basic HTML, CSS code
   ![Ads Manager](https://github.com/srishti-maurya/training-cs/blob/main/project-imgs/ads.png)
 
 - Microsoft Clone
-  ![Microsoft Clone]()
+  ![Microsoft Clone](https://github.com/srishti-maurya/training-cs/blob/main/project-imgs/microsoftClone.png)
