@@ -28,3 +28,8 @@ Basic HTML, CSS code
 - Responsive Web Design
 
   ![Responsive Web Design](https://github.com/srishti-maurya/training-cs/blob/main/project-imgs/responsiveWebDesign.png)
+
+
+- Bootstrap Landing Page
+
+![Bootstrap Landing Page](https://github.com/srishti-maurya/training-cs/blob/main/project-imgs/bootstrapLandingPage.png)
