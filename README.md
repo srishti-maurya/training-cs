@@ -33,3 +33,7 @@ Basic HTML, CSS code
 - Bootstrap Landing Page
 
 ![Bootstrap Landing Page](https://github.com/srishti-maurya/training-cs/blob/main/project-imgs/bootstrapLandingPage.png)
+
+- Bootstrap Web Layout 
+
+![Bootstrap Web Layout](https://github.com/srishti-maurya/training-cs/blob/main/project-imgs/bootstrapWebLayout.png)
