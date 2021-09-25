@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- tailwind css -->
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header ==============================  -->
+    <div class="bg-green-700 p-4 flex justify-between items-center">
+      <div class="flex items-center">
+        <img
+          src="https://cdn2.iconfinder.com/data/icons/icontober/64/Inkcontober_Trail-512.png"
+          width="50"
+          alt="Logo"
+          class="mr-2"
+        />
+        <a
+          href="#"
+          class="inline-block p-2 text-green-200 hover:text-green-100 mr-2"
+          >Home</a
+        >
+        <a href="#" class="inline-block p-2 text-green-200 hover:text-green-100"
+          >About</a
+        >
+      </div>
+
+      <div class="hidden md:block">
+        <a
+          href="#"
+          class="inline-block p-2 text-indigo-200 hover:text-indigo-100 mr-2"
+          >Login</a
+        >
+        <a
+          href="#"
+          class="
+            inline-block
+            py-2
+            px-4
+            text-yellow-700
+            bg-yellow-400
+            hover:bg-yellow-300
+            hover:text-yellow-800
+            rounded
+            transition
+            ease-in
+            duration-150
+          "
+          >Sign Up</a
+        >
+      </div>
+    </div>
+
+    <div
+      class="md:flex justify-between py-20 px-10 bg-green-600 text-green-100"
+    >
+      <!--   left -->
+      <div class="md:w-1/2 mb-10 md:mb-0">
+        <h2 class="text-2xl md:text-4xl lg:text-6xl text-white mb-6">
+          Embrace nature!
+        </h2>
+        <p class="mb-6">There is never a sad day here!</p>
+
+        <a
+          href="#"
+          class="
+            inline-block
+            py-3
+            px-6
+            text-lg
+            bg-gray-400
+            text-gray-800
+            hover:bg-gray-300
+            rounded
+            mr-2
+          "
+          >Explore</a
+        >
+        <a
+          href="#"
+          class="
+            inline-block
+            py-3
+            px-6
+            text-lg
+            bg-yellow-400
+            text-yellow-800
+            hover:bg-yellow-300
+            rounded
+          "
+          >Share</a
+        >
+      </div>
+
+      <div class="md:w-1/2">
+        <img
+          src="https://images.unsplash.com/photo-1631741777775-81363741dc73?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDUxfDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+          alt="Nature-img"
+          class="w-full rounded shadow-2xl"
+        />
+      </div>
+    </div>
+
+    <div class="md:flex py-10 px-10 bg-green-800 text-green-200 tex t-center">
+      <div class="mr-2 text-center">
+        <img
+          src="https://images.unsplash.com/photo-1611465577672-8fc7be1dc826?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDc3fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+          class="w-full mb-4 rounded border-solid border-2 border-green-400"
+        />
+        <p>Mountains!</p>
+      </div>
+
+      <div class="mr-2 mt-12 text-center">
+        <img
+          src="https://images.unsplash.com/photo-1631623394471-7386b50b149c?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDgzfDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+          class="w-full mb-4 rounded border-solid border-2 border-green-400"
+        />
+        <p>Water!</p>
+      </div>
+
+      <div class="mr-2 text-center">
+        <img
+          src="https://images.unsplash.com/photo-1626515405452-9728f8d67d39?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8NnNNVmpUTFNrZVF8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+          class="w-full mb-4 rounded border-solid border-2 border-green-400"
+        />
+        <p>Clouds!</p>
+      </div>
+
+      <div class="mr-2 mt-12 text-center">
+        <img
+          src="https://images.unsplash.com/photo-1565053266993-18ae409835ef?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDkwfDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+          class="w-full mb-4 rounded border-solid border-2 border-green-400"
+        />
+        <p>Sunrise!</p>
+      </div>
+    </div>
+
+    <div class="p-10 bg-green-900 text-green-400 flex justify-between">
+      <div class="md:w-1/2">
+        <h3 class="text-lg mb-2">Join the Newsletter</h3>
+        <form class="flex">
+          <input
+            type="email"
+            placeholder="Enter your email"
+            class="w-full rounded-l py-3 px-4 outline-none focus:bg-green-200"
+          />
+          <button
+            class="
+              bg-yellow-300
+              hover:bg-yellow-400
+              text-yellow-800
+              rounded-r
+              px-4
+            "
+          >
+            Join
+          </button>
+        </form>
+      </div>
+
+      <div class="flex items-center">
+        Designed and Developed by Srishti Maurya
+      </div>
+    </div>
+  </body>
+</html>
