@@ -1,0 +1,282 @@
+<!-- https://coderstape.com/learn-tailwind-final-project -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS Practise</title>
+    <!-- tailwind css -->
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/692dfd03ca.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container font-mono">
+      <div
+        class="
+          header
+          bg-blue-900
+          py-4
+          px-10
+          w-screen
+          border-b-8 border-blue-300
+        "
+      >
+        <img class="h-10" src="../images/name.png" alt="logo" />
+        <div class="text-blue-100 text-3xl pt-4">
+          Want to learn Tailwind CSS?
+        </div>
+        <div class="text-blue-200">
+          Tailwind is the fastest growing utility-first CSS framework. Let's
+          learn it step by step.
+        </div>
+        <div class="relative flex my-4">
+          <a
+            class="
+              bg-blue-300
+              font-bold
+              uppercase
+              rounded-full
+              py-1
+              px-3
+              cursor-pointer
+            "
+            href="https://tailwindcss.com/docs"
+          >
+            Read Docs
+          </a>
+          <img
+            class="
+              rounded-full
+              h-24
+              w-24
+              flex
+              items-center
+              justify-center
+              border-8 border-blue-300
+              absolute
+              right-0
+              mt-3
+            "
+            src="https://tailwindcss.com/_next/static/media/twitter-square.daf77586b35e90319725e742f6e069f9.jpg"
+            alt="logo"
+          />
+        </div>
+        <!-- header closing tag -->
+      </div>
+      <!-- body section -->
+      <div class="body bg-gray-300 w-screen pb-12">
+        <div class="p-10">
+          <div class="text-3xl text-blue-900 mb-4 border-b-2 border-blue-800">
+            How It Works
+          </div>
+
+          <p>
+            Tailwind is designed for rapid development of modern applications.
+            At its core, it is a robust mobile-first design system built with
+            developer experience in mind. After using Tailwind CSS, you will
+            find it difficult to go back to use anything else.
+          </p>
+        </div>
+        <div class="px-10 w-screen">
+          <div class="text-3xl text-blue-900 mb-4 border-b-2 border-blue-800">
+            Advantages
+          </div>
+          <div class="flex justify-center text-center gap-10">
+            <div class="bg-white p-2 rounded-lg border-b-4 border-blue-700">
+              <div
+                class="
+                  rounded-full
+                  h-24
+                  w-24
+                  flex
+                  items-center
+                  justify-center
+                  bg-blue-100
+                  mx-auto
+                  my-4
+                "
+              >
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="fab"
+                  data-icon="css3-alt"
+                  class="svg-inline--fa fa-css3-alt"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 384 512"
+                  width="45"
+                  height="45"
+                  color="#1E40AF"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3 .1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2 .1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="font-bold mb-4 text-xl text-blue-900">
+                No Custom CSS
+              </div>
+              <p class="text-gray-600 pb-4">
+                Tailwind's advanced class extraction will leave your project
+                free of custom CSS.
+              </p>
+            </div>
+            <div class="bg-white p-2 rounded-lg border-b-4 border-blue-700">
+              <div
+                class="
+                  rounded-full
+                  h-24
+                  w-24
+                  flex
+                  items-center
+                  justify-center
+                  bg-blue-100
+                  mx-auto
+                  my-4
+                "
+              >
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="fas"
+                  data-icon="laptop-code"
+                  class="svg-inline--fa fa-laptop-code"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 640 512"
+                  width="45"
+                  height="45"
+                  color="#1E40AF"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M128 96h384v256h64V80C576 53.63 554.4 32 528 32h-416C85.63 32 64 53.63 64 80V352h64V96zM624 384h-608C7.25 384 0 391.3 0 400V416c0 35.25 28.75 64 64 64h512c35.25 0 64-28.75 64-64v-16C640 391.3 632.8 384 624 384zM365.9 286.2C369.8 290.1 374.9 292 380 292s10.23-1.938 14.14-5.844l48-48c7.812-7.813 7.812-20.5 0-28.31l-48-48c-7.812-7.813-20.47-7.813-28.28 0c-7.812 7.813-7.812 20.5 0 28.31l33.86 33.84l-33.86 33.84C358 265.7 358 278.4 365.9 286.2zM274.1 161.9c-7.812-7.813-20.47-7.813-28.28 0l-48 48c-7.812 7.813-7.812 20.5 0 28.31l48 48C249.8 290.1 254.9 292 260 292s10.23-1.938 14.14-5.844c7.812-7.813 7.812-20.5 0-28.31L240.3 224l33.86-33.84C281.1 182.4 281.1 169.7 274.1 161.9z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="font-bold mb-4 text-xl text-blue-900">
+                Developer Experience
+              </div>
+              <p class="text-gray-600 pb-4">
+                Tailwind is designed with your happiness in mind. The ease of
+                performing changes is refreshing.
+              </p>
+            </div>
+            <div class="bg-white p-2 rounded-lg border-b-4 border-blue-700">
+              <div
+                class="
+                  rounded-full
+                  h-24
+                  w-24
+                  flex
+                  items-center
+                  justify-center
+                  bg-blue-100
+                  mx-auto
+                  my-4
+                "
+              >
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="fas"
+                  data-icon="mobile-screen-button"
+                  class="svg-inline--fa fa-mobile-screen-button"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 384 512"
+                  width="45"
+                  height="45"
+                  color="#1E40AF"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M304 0h-224c-35.35 0-64 28.65-64 64v384c0 35.35 28.65 64 64 64h224c35.35 0 64-28.65 64-64V64C368 28.65 339.3 0 304 0zM192 480c-17.75 0-32-14.25-32-32s14.25-32 32-32s32 14.25 32 32S209.8 480 192 480zM304 64v320h-224V64H304z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="font-bold mb-4 text-xl text-blue-900">
+                Mobile Friendly
+              </div>
+              <p class="text-gray-600 pb-4">
+                Modern applications demand mobile-friendly & Tailwind's
+                responsive modifiers make it easy.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- section body closing tag -->
+      </div>
+      <div class="footer bg-blue-900 text-blue-200 p-3 w-screen">
+        <div>
+          <div class="font-bold text-xl text-center p-10">
+            Sign up to download the free PDF
+          </div>
+          <div
+            class="
+              grid
+              gap-4
+              w-3/4
+              grid-cols-1
+              md:grid-cols-2
+              grid-rows-2
+              mx-auto
+            "
+          >
+            <input
+              type="text"
+              class="bg-blue-700 rounded-lg p-2 border border-gray-500"
+              placeholder="First name"
+            />
+            <input
+              type="text"
+              class="bg-blue-700 rounded-lg p-2 border border-gray-500"
+              placeholder="Last name"
+            />
+
+            <input
+              type="text"
+              class="bg-blue-700 rounded-lg p-2 border border-gray-500"
+              placeholder="jack@email.com"
+            />
+            <input
+              type="text"
+              class="bg-blue-700 rounded-lg p-2 border border-gray-500"
+              placeholder="Your title"
+            />
+          </div>
+          <button
+            class="
+              w-3/4
+              text-center
+              justify-center
+              bg-gray-300
+              text-blue-800
+              mt-8
+              rounded-lg
+              py-2
+              mx-auto
+              flex
+            "
+          >
+            Create account
+          </button>
+        </div>
+        <div class="text-sm pt-8 text-center">
+          Designed and developed by Srishti Maurya
+        </div>
+        <!-- section footer closing tag -->
+      </div>
+    </div>
+  </body>
+</html>
