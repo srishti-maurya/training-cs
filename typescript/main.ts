@@ -27,6 +27,9 @@ let list2: Array<number> = [1, 2, 3];
 
 let person1: [string, number] = ["Jack", 22];
 
+//enum cannot change the value of enum variable outside it
+// should have the same type
+
 enum Color {
   Red = 5,
   Green,
@@ -135,7 +138,86 @@ m1.greet();
 console.log(m1.employeeName);
 
 // access modifier
+/*
 
-// public - free acc
-// private - acc within the class
-// protected - acc within the class and classes derived from it
+public - free acc //default 
+
+private - acc within the class
+
+protected - acc within the class and classes derived from it
+
+*/
+// we can create different type alias to reuse it again.
+type StringOrNum = string | number;
+type objWithName = { name: string; uid: StringOrNum };
+
+const greet = (user: objWithName) => {
+  console.log(`${user.name} says hello`);
+};
+
+// dynamic any types
+let age: any = 25;
+// we can change the type of age afterwards
+age = true;
+age = "hello";
+age = { name: "Jack" };
+
+let mixed: any[] = [];
+mixed.push(5);
+mixed.push("mary");
+mixed.push(true);
+
+let ninja: { name: any; age: any };
+
+ninja = { name: "mary", age: 22 };
+// to avoid this use carefully
+ninja = { name: 25, age: "mary" };
+
+//arrays
+let names = ["mary", "jack", "mathew"];
+names.push("toad");
+//the type once initialized cannot be changed
+// names.push(3); //error
+// names[0] = 3; error
+
+//names=30 //err - cannot change the type of the variable itself too
+
+let num = [10, 20, 30];
+num.push(40);
+// num.push("mary");//err
+// num[1] = 'shaun';//err
+
+//we can use diff type if the initial array was initialized with diff types
+let mixedArr = ["mary", 4, "shaun", 5, 8];
+mixedArr.push("mario");
+mixedArr.push(10);
+mixedArr[0] = 4;
+
+//objects
+let ninja2 = {
+  name: "mario",
+  belt: "black",
+  age: 30,
+};
+
+// no err coz the type is same
+ninja2.age = 40;
+ninja2.name = "rio";
+// ninja2.age='30'//cannot change the type
+
+//once the obj properties are declared, no other prop can be added to it
+// ninja2.skills = ["fighting", "sneaking"];//err
+
+//we can change the all values with the same type again with exactly the same prop
+ninja2 = {
+  name: "rio",
+  belt: "orange",
+  age: 20,
+  //   skills = [], //err cannot add new prop
+};
+
+/*
+Cohesion -
+things that are related should be together
+
+*/
